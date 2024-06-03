@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T14:14:30.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="QCcZ1fd_INXOUHP93GJF" version="24.4.9" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-03T14:42:43.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="zdAcdE3f7OUn5lGJdiKD" version="24.4.13" type="device">
   <diagram name="Página-1" id="hyWOLQbilvEVhhYELT24">
-    <mxGraphModel dx="788" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -894,7 +894,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ntEm69c-MUQ5tlOUdL51-236" value="Apagar Cliente" style="whiteSpace=wrap;html=1;fillColor=#FFB73B;strokeColor=#FFB73B;shadow=1;" parent="1" vertex="1">
+        <mxCell id="ntEm69c-MUQ5tlOUdL51-236" value="Apagar Funcionário" style="whiteSpace=wrap;html=1;fillColor=#FFB73B;strokeColor=#FFB73B;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="394" y="2425" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ntEm69c-MUQ5tlOUdL51-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.733;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FFB73B;strokeColor=#FFB73B;shadow=1;" parent="1" source="ntEm69c-MUQ5tlOUdL51-236" target="ntEm69c-MUQ5tlOUdL51-229" edge="1">
