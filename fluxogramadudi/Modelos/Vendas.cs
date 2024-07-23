@@ -1,4 +1,6 @@
-public class  Vendas
+namespace Modelos
+{
+public class  Vendas: Registro
 
 {
     string nomedoproduto;
@@ -6,19 +8,28 @@ public class  Vendas
     int id;
     public void SetNomedoproduto (string nomedoproduto)
  {
-        thisnomedoproduto.nomedoproduto;
+        this.nomedoproduto=nomedoproduto;
     }
         public string GetNomedoproduto()
         {
             return nomedoproduto;
         }
     
-     public void Setquantidade(string quantidade)
+     public void Setquantidade(int quantidade)
      {
-      thisquantidade.quantidade;
+      this.quantidade= quantidade;
      }
        public int Getquantidade()
         {
             return quantidade;
         }
+        public void Setid(int id)
+     {
+      this.id=id;
+     }
+       public int Getid()
+        {
+            return id;
+        }
   }
+}

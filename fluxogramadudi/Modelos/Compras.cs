@@ -1,17 +1,20 @@
-public class Compras
+namespace Modelos
+{
+public class Compras: Registro
+
 {
     string produtos;
     
     string fornecedor;
     
-    string decimal;
+    decimal valor;
     
     string estoque;
     int quantidade;
     int id;
     public void Setprodutos (string produtos)
  {
-        thisprodutos.produtos;
+        this.produtos=produtos;
     }
         public string Getprodutos()
         {
@@ -19,35 +22,46 @@ public class Compras
         }
          public void Setfornecedor (string fornecedor)
  {
-        thisfornecedor.fornecedor;
+        this.fornecedor=fornecedor;
     }
         public string Getfornecedor()
         {
             return fornecedor;
         }
-     public void Setdecimal(string decimal)
+     public void Setvalor(decimal valor)
  {
-        thisdecimal.decimal;
+        this.valor=valor;
     }
-        public string Getdecimal()
+        public decimal Getdecimal()
         {
-            return decimal;
+            return valor;
         }
          public void Setestoque(string estoque)
  {
-        thisestoque.estoque;
+        this.estoque=estoque;
     }
         public string Getestoque()
         {
             return estoque;
         }
 
-     public void Setquantidade(string quantidade)
+     public void Setquantidade(int quantidade)
      {
-      thisquantidade.quantidade;
+      this.quantidade=quantidade;
      }
        public int Getquantidade()
         {
             return quantidade;
         }
-  }
+
+        public void Setid(int id)
+     {
+      this.id=id;
+     }
+       public int Getid()
+        {
+            return id;
+        }
+}
+}
+  

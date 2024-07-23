@@ -1,30 +1,33 @@
-public class MateriaPrima
+
+namespace Modelos
+{
+public class MateriaPrima: Registro
 {
     string nome;
-    string unidade;
+    int unidade;
     string transportadora;
     string fornecedor;
     int id;
     public void SetNome (string nome)
  {
-        thisnome.nome;
+        this.nome=nome;
     }
         public string GetNome()
         {
             return nome;
         }
     
-     public void Setunidade (string unidade)
+     public void Setunidade (int unidade)
      {
-      thisunidade.unidade;
+      this.unidade=unidade;
      }
-       public string Getunidade()
+       public int Getunidade()
         {
             return unidade;
         }
       public void Settransportadora (string transportadora)
       {
-        thistransportadora.transportadora
+        this.transportadora=transportadora;
       }
         public string Gettransportadora()
         {
@@ -32,11 +35,20 @@ public class MateriaPrima
   }
    public void Setfornecedor (string fornecedor)
       {
-        thisfornecedor.fornecedor
+        this.fornecedor=fornecedor;
       }
         public string Getfornecedor()
         {
             return fornecedor;
   }
+  public void Setid(int id)
+     {
+      this.id=id;
+     }
+       public int Getid()
+        {
+            return id;
+        }
 
+}
 }
