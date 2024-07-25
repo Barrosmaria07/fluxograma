@@ -16,7 +16,7 @@ namespace Controle
 
         {
         }
-         public virtual void Registro Ler  (int id)
+         public virtual  Registro Ler  (int id)
 
         {
             return id;

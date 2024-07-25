@@ -15,7 +15,7 @@ namespace Controles
     }
      public override Registro Ler ( int id)
     {
-        return id;
+        return null;
     }
 
 
