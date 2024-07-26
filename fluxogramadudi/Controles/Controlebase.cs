@@ -16,10 +16,10 @@ namespace Controle
 
         {
         }
-         public virtual  Registro Ler  (int id)
+         public virtual Registro Ler  (int id)
 
         {
-            return id;
+            return null;
         }
         
         

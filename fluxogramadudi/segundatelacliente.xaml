@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.segundatelacliente">
+
+    <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <!-- Search Bar -->
+        <SearchBar Placeholder="procurar cliente" />
+
+        <!-- Not Found Message -->
+        <Label Text="Não encontrado" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+        <!-- Cadastro Button -->
+        <Button Text="Fazer Cadastro" BackgroundColor="#E0E8E0" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+    </StackLayout>
+</ContentPage>

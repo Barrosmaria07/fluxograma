@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.primeiratelacliente">
+
+    <StackLayout Padding="20">
+
+        <!-- Search Bar -->
+        <SearchBar Placeholder="procurar cliente" />
+
+        <!-- Clients List -->
+        <CollectionView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <Image Source="profile_placeholder.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
+                        
+                        <Label Text="Nome do cliente" VerticalOptions="Center" Grid.Column="1" />
+                        
+                        <Button Text="Entrar" BackgroundColor="#E0E8E0" TextColor="Black" Grid.Column="2" />
+                        <Button Text="Apagar?" BackgroundColor="#E0E8E0" TextColor="Black" Grid.Column="3" />
+                        <Button Text="Atualizar?" BackgroundColor="#E0E8E0" TextColor="Black" Grid.Column="4" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+</ContentPage>
