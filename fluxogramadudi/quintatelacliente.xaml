@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.quintatelacliente">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="20">
+        <!-- Confirmation Question -->
+        <Label Text="Você deseja apagar esse cliente?" FontSize="24" HorizontalOptions="Center" VerticalOptions="Center" />
+
+        <!-- Buttons Layout -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="20,50,20,0">
+            <!-- Yes Button -->
+            <Button Text="Sim" BackgroundColor="#E0E8E0" TextColor="Black" WidthRequest="100" />
+            <!-- No Button -->
+            <Button Text="Não" BackgroundColor="#F8D7DA" TextColor="Black" WidthRequest="100" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

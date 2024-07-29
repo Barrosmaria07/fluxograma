@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.segundatelatransport"
+             Title="Procurar Transportadora">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        
+        <SearchBar Placeholder="Procurar Transportadora" />
+
+        <Label x:Name="resultLabel"
+               Text="Não encontrado" 
+               HorizontalOptions="Center"/>
+
+        <Button Text="Fazer Cadastro"
+                BackgroundColor="#F25CA2"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Clicked="OnRegisterButtonClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

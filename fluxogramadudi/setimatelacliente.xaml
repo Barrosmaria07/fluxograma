@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.setimatelacliente"
+             Title="Página de cadastro">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Página de cadastro"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+
+            <Label Text="Nome de usuário:"
+                   FontSize="18"
+                   TextColor="Green" />
+            <Entry Placeholder="Digite seu nome de usuário"
+                   BackgroundColor="LightGreen"
+                   CornerRadius="10"
+                   Margin="0,0,0,20" />
+
+            <Label Text="E-mail:"
+                   FontSize="18"
+                   TextColor="Green" />
+            <Entry Placeholder="Digite seu e-mail"
+                   BackgroundColor="LightGreen"
+                   CornerRadius="10"
+                   Margin="0,0,0,20" />
+
+            <Label Text="Telefone:"
+                   FontSize="18"
+                   TextColor="Green" />
+            <Entry Placeholder="Digite seu telefone"
+                   BackgroundColor="LightGreen"
+                   CornerRadius="10"
+                   Margin="0,0,0,20" />
+
+            <Label Text="Endereço:"
+                   FontSize="18"
+                   TextColor="Green" />
+            <Entry Placeholder="Digite seu endereço"
+                   BackgroundColor="LightGreen"
+                   CornerRadius="10"
+                   Margin="0,0,0,20" />
+
+            <Button Text="Ir"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    Margin="0,20,0,0" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

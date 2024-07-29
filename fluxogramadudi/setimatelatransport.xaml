@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.setimatelatransport"
+             Title="Página de cadastro">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Página de cadastro"
+                   FontSize="Title"
+                   HorizontalOptions="Center" />
+            
+            <Frame BackgroundColor="#F25CA2"
+                   CornerRadius="10"
+                   Padding="10">
+                <Entry Placeholder="Nome da Transportadora"
+                       TextColor="White"
+                       BackgroundColor="Transparent" />
+            </Frame>
+
+            <Frame BackgroundColor="#F25CA2"
+                   CornerRadius="10"
+                   Padding="10">
+                <Entry Placeholder="E-mail"
+                       Keyboard="Email"
+                       TextColor="White"
+                       BackgroundColor="Transparent" />
+            </Frame>
+
+            <Frame BackgroundColor="#F25CA2"
+                   CornerRadius="10"
+                   Padding="10">
+                <Entry Placeholder="Telefone"
+                       Keyboard="Telephone"
+                       TextColor="White"
+                       BackgroundColor="Transparent" />
+            </Frame>
+
+            <Button Text="Ir"
+                    HorizontalOptions="End"
+                    BackgroundColor="#F25CA2"
+                    TextColor="White"
+                    Clicked="OnRegisterButtonClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

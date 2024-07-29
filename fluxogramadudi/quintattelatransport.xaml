@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.quintatelatransport"
+             Title="Confirmação">
+
+    <VerticalStackLayout 
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Spacing="20">
+        
+        <Label Text="Você deseja apagar essa transportadora?" 
+               HorizontalTextAlignment="Center"
+               FontSize="Medium" />
+
+        <HorizontalStackLayout Spacing="20">
+            <Button Text="Sim"
+                    WidthRequest="100"
+                    BackgroundColor="LightGreen"
+                    Clicked="OnYesButtonClicked" />
+            <Button Text="Não"
+                    WidthRequest="100"
+                    BackgroundColor="LightPink"
+                    Clicked="OnNoButtonClicked" />
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.segundatelamp"
+             Title="Pedido">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Pedido"
+               FontSize="Title"
+               HorizontalOptions="Center" />
+
+        <Label Text="O quê:" />
+        <Entry Placeholder="Descreva o pedido" />
+
+        <Label Text="Quem:" />
+        <Entry Placeholder="Nome do cliente" />
+
+        <Label Text="Quantidade:" />
+        <Entry Placeholder="Insira a quantidade"
+               Keyboard="Numeric" /> 
+
+        <Button Text="Salvar" 
+                HorizontalOptions="End"
+                BackgroundColor="LightGreen" 
+                Clicked="OnSaveButtonClicked" />
+    </VerticalStackLayout>
+</ContentPage>
