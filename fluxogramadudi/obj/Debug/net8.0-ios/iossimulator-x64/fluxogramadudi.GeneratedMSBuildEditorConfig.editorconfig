@@ -40,6 +40,54 @@ build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.primeiratel
 build_metadata.AdditionalFiles.TargetPath = primeiratelacliente.xaml
 build_metadata.AdditionalFiles.RelativePath = primeiratelacliente.xaml
 
+[C:/Users/Aluno/fluxograma/fluxogramadudi/primeiratelafornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.primeiratelafornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = primeiratelafornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = primeiratelafornecedor.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/primeiratelamp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.primeiratelamp.xaml
+build_metadata.AdditionalFiles.TargetPath = primeiratelamp.xaml
+build_metadata.AdditionalFiles.RelativePath = primeiratelamp.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/primeiratelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.primeiratelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = primeiratelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = primeiratelatransport.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/quartatelacliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.quartatelacliente.xaml
+build_metadata.AdditionalFiles.TargetPath = quartatelacliente.xaml
+build_metadata.AdditionalFiles.RelativePath = quartatelacliente.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/quartatelafornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.quartatelafornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = quartatelafornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = quartatelafornecedor.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/quartatelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.quartatelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = quartatelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = quartatelatransport.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/quintatelacliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.quintatelacliente.xaml
+build_metadata.AdditionalFiles.TargetPath = quintatelacliente.xaml
+build_metadata.AdditionalFiles.RelativePath = quintatelacliente.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/quintattelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.quintattelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = quintattelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = quintattelatransport.xaml
+
 [C:/Users/Aluno/fluxograma/fluxogramadudi/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.Resources.Styles.Colors.xaml
@@ -58,8 +106,80 @@ build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.segundatela
 build_metadata.AdditionalFiles.TargetPath = segundatelacliente.xaml
 build_metadata.AdditionalFiles.RelativePath = segundatelacliente.xaml
 
+[C:/Users/Aluno/fluxograma/fluxogramadudi/segundatelafornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.segundatelafornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = segundatelafornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = segundatelafornecedor.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/segundatelamp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.segundatelamp.xaml
+build_metadata.AdditionalFiles.TargetPath = segundatelamp.xaml
+build_metadata.AdditionalFiles.RelativePath = segundatelamp.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/segundatelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.segundatelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = segundatelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = segundatelatransport.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/setimatelacliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.setimatelacliente.xaml
+build_metadata.AdditionalFiles.TargetPath = setimatelacliente.xaml
+build_metadata.AdditionalFiles.RelativePath = setimatelacliente.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/setimatelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.setimatelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = setimatelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = setimatelatransport.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/sextatelacliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.sextatelacliente.xaml
+build_metadata.AdditionalFiles.TargetPath = sextatelacliente.xaml
+build_metadata.AdditionalFiles.RelativePath = sextatelacliente.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/sextatelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.sextatelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = sextatelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = sextatelatransport.xaml
+
 [C:/Users/Aluno/fluxograma/fluxogramadudi/Telainicial.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.Telainicial.xaml
 build_metadata.AdditionalFiles.TargetPath = Telainicial.xaml
 build_metadata.AdditionalFiles.RelativePath = Telainicial.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/terceiratelacliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.terceiratelacliente.xaml
+build_metadata.AdditionalFiles.TargetPath = terceiratelacliente.xaml
+build_metadata.AdditionalFiles.RelativePath = terceiratelacliente.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/terceiratelafornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.terceiratelafornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = terceiratelafornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = terceiratelafornecedor.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/terceiratelamp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.terceiratelamp.xaml
+build_metadata.AdditionalFiles.TargetPath = terceiratelamp.xaml
+build_metadata.AdditionalFiles.RelativePath = terceiratelamp.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/terceiratelatransport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.terceiratelatransport.xaml
+build_metadata.AdditionalFiles.TargetPath = terceiratelatransport.xaml
+build_metadata.AdditionalFiles.RelativePath = terceiratelatransport.xaml
+
+[C:/Users/Aluno/fluxograma/fluxogramadudi/quartatelafornecedor.xaml.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = fluxogramadudi.quartatelafornecedor.xaml.css
+build_metadata.AdditionalFiles.TargetPath = quartatelafornecedor.xaml.css
+build_metadata.AdditionalFiles.RelativePath = quartatelafornecedor.xaml.css

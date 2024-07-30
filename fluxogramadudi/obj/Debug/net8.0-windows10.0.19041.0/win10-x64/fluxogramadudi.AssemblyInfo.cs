@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fluxogramadudi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+313ecb728f0b409f7a1881277ae934046fed99e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7f40b41291656af61b4f74aadaed911659b3b6af")]
 [assembly: System.Reflection.AssemblyProductAttribute("fluxogramadudi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fluxogramadudi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
