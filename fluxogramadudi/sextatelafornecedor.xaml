@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.sextatelafornecedor"
+             BackgroundColor="#F2CCEF">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Dados do cliente"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Entry x:Name="NomeEntry" Placeholder="Nome de usuário" />
+            <Entry x:Name="EmailEntry" Placeholder="E-mail" Keyboard="Email" />
+            <Entry x:Name="TelefoneEntry" Placeholder="Telefone" Keyboard="Telephone" />
+            <Entry x:Name="EnderecoEntry" Placeholder="Endereço" />
+
+            </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

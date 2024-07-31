@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.setimatelafornecedor"
+             BackgroundColor="#F2CCEF">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Página de cadastro"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Entry x:Name="NomeUsuarioEntry" Placeholder="Nome de usuário" 
+                   BackgroundColor="#F2E6E6" />
+            <Entry x:Name="EmailEntry" Placeholder="E-mail" Keyboard="Email"
+                   BackgroundColor="#F2E6E6" />
+            <Entry x:Name="TelefoneEntry" Placeholder="Telefone" Keyboard="Telephone"
+                   BackgroundColor="#F2E6E6" />
+            <Entry x:Name="EnderecoEntry" Placeholder="Endereço"
+                   BackgroundColor="#F2E6E6" />
+
+            <Button Text="Cadastrar"
+                    BackgroundColor="#F292A9"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnCadastrarClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

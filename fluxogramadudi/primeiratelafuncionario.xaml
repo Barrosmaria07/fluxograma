@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.primeiratelafuncionario"
+             BackgroundColor="White">
+
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <SearchBar Placeholder="Procurar Funcionário" 
+                   Grid.Row="0"
+                   BackgroundColor="LightGray" />
+
+        <CollectionView x:Name="EmployeeList"
+                        Grid.Row="1"
+                        ItemsSource="{Binding Employees}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" ColumnDefinitions="Auto,*,Auto,Auto,Auto">
+                        <Image Source="person_icon.png" 
+                               HeightRequest="30" 
+                               WidthRequest="30"
+                               VerticalOptions="Center" />
+                        <Label Text="{Binding Name}" 
+                               Grid.Column="1" 
+                               VerticalOptions="Center"
+                               FontSize="16" />
+                        <Button Text="Entrar"
+                                Grid.Column="2"
+                                Clicked="OnEntrarClicked" />
+                        <Button Text="Apagar?"
+                                Grid.Column="3"
+                                Clicked="OnApagarClicked" />
+                        <Button Text="Atualizar?"
+                                Grid.Column="4"
+                                Clicked="OnAtualizarClicked" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
