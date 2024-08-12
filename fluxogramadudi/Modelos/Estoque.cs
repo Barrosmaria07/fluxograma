@@ -1,36 +1,15 @@
+using LiteDB;
+
 namespace Modelos
 {
 public class Estoque: Registro
 {
 
-    string produtos;
-    int quantidade;
-    int id;
-    public void Setprodutos (string produtos)
- {
-        this.produtos=produtos;
-    }
-        public string Getprodutos()
-        {
-            return produtos;
-        }
+    public string produtos {get; set;}
+    public int quantidade {get; set;}
+
+    [BsonId]
+    public int id {get; set;}
     
-     public void Setquantidade(int quantidade)
-     {
-      this.quantidade=quantidade;
-     }
-       public int Getquantidade()
-        {
-            return quantidade;
-        }
-        
-     public void Setid(int id)
-     {
-      this.id=id;
-     }
-       public int Getid()
-        {
-            return id;
-        }
 }
 }
