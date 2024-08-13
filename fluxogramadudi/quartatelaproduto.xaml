@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.quatatelaproduto"
+             Title="Estoque">
+    <ContentPage.Content>
+        <VerticalStackLayout Spacing="20">
+            <Button Text="Itens" Clicked="Itens_Clicked" />
+            <Button Text="Compra" Clicked="Compra_Clicked" />
+            <Button Text="Baixa" Clicked="Baixa_Clicked" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

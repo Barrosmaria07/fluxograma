@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.segundatelapedido">
+    <StackLayout>
+        <!-- Cabeçalho -->
+        <Label Text="Pedidos" FontSize="20" HorizontalOptions="CenterAndExpand" />
+
+        <!-- Subcabeçalho -->
+        <Label Text="Lista de pedidos:" FontSize="16" />
+
+        <!-- Área para adicionar itens (deixe em branco) -->
+        <!-- Aqui você pode adicionar uma lista de pedidos dinâmica -->
+
+        <!-- Botões (Adicionar e Excluir) -->
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Adicionar" BackgroundColor="Green" />
+            <Button Text="Excluir" BackgroundColor="Pink" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

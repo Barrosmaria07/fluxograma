@@ -1,0 +1,26 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.sextatelaproduto">
+    <StackLayout>
+        <!-- Cabeçalho -->
+        <Label Text="Itens" FontSize="20" HorizontalOptions="CenterAndExpand" />
+
+        <!-- Tabela de itens -->
+        <ListView ItemsSource="{Binding Itens}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Produto}" />
+                            <Label Text="{Binding Quantidade}" />
+                            <Label Text="{Binding Fornecedor}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- Botão para adicionar item -->
+        <Button Text="Adicionar Item" Clicked="OnAddItemClicked" />
+    </StackLayout>
+</ContentPage>

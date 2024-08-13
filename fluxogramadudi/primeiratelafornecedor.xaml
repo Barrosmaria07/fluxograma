@@ -6,21 +6,13 @@
     <StackLayout Padding="10">
 
         <!-- Search Bar -->
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-            <SearchBar Placeholder="Procurar Fornecedor" HorizontalOptions="FillAndExpand"/>
-            <ImageButton Source="search_icon.png" WidthRequest="40" HeightRequest="40" />
-        </StackLayout>
-<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="YourNamespace.SupplierSearchPage">
-
-    <StackLayout Padding="10">
-
-        <!-- Search Bar -->
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-            <SearchBar Placeholder="Procurar Fornecedor" HorizontalOptions="FillAndExpand"/>
-            <ImageButton Source="search_icon.png" WidthRequest="40" HeightRequest="40" />
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <SearchBar Placeholder="Procurar Fornecedor"
+                       HorizontalOptions="FillAndExpand"/>
+            <ImageButton Source="search_icon.png"
+                         WidthRequest="40"
+                         HeightRequest="40"/>
         </StackLayout>
 
         <!-- Supplier List -->
@@ -36,17 +28,37 @@
             </CollectionView.ItemsSource>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Padding="10" ColumnDefinitions="Auto,*,Auto,Auto,Auto" RowDefinitions="Auto">
+                    <Grid Padding="10"
+                          ColumnDefinitions="Auto,*,Auto,Auto,Auto"
+                          RowDefinitions="Auto">
                         <!-- Supplier Icon -->
-                        <Image Source="supplier_icon.png" WidthRequest="50" HeightRequest="50" Grid.Column="0" VerticalOptions="Center"/>
+                        <Image Source="supplier_icon.png"
+                               WidthRequest="50"
+                               HeightRequest="50"
+                               Grid.Column="0"
+                               VerticalOptions="Center"/>
 
                         <!-- Supplier Name -->
-                        <Label Text="{Binding .}" VerticalOptions="Center" Grid.Column="1" />
+                        <Label Text="{Binding .}"
+                               VerticalOptions="Center"
+                               Grid.Column="1"/>
 
                         <!-- Action Buttons -->
-                        <Button Text="Entrar" BackgroundColor="#F8E6F1" TextColor="Black" WidthRequest="70" Grid.Column="2"/>
-                        <Button Text="Apagar?" BackgroundColor="#F8E6F1" TextColor="Black" WidthRequest="70" Grid.Column="3"/>
-                        <Button Text="Atualizar?" BackgroundColor="#F8E6F1" TextColor="Black" WidthRequest="70" Grid.Column="4"/>
+                        <Button Text="Entrar"
+                                BackgroundColor="#F8E6F1"
+                                TextColor="Black"
+                                WidthRequest="70"
+                                Grid.Column="2"/>
+                        <Button Text="Apagar?"
+                                BackgroundColor="#F8E6F1"
+                                TextColor="Black"
+                                WidthRequest="70"
+                                Grid.Column="3"/>
+                        <Button Text="Atualizar?"
+                                BackgroundColor="#F8E6F1"
+                                TextColor="Black"
+                                WidthRequest="70"
+                                Grid.Column="4"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
@@ -55,34 +67,4 @@
     </StackLayout>
 </ContentPage>
 
-        <!-- Supplier List -->
-        <CollectionView>
-            <CollectionView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Nome do Fornecedor</x:String>
-                    <x:String>Nome do Fornecedor</x:String>
-                    <x:String>Nome do Fornecedor</x:String>
-                    <x:String>Nome do Fornecedor</x:String>
-                    <x:String>Nome do Fornecedor</x:String>
-                </x:Array>
-            </CollectionView.ItemsSource>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Padding="10" ColumnDefinitions="Auto,*,Auto,Auto,Auto" RowDefinitions="Auto">
-                        <!-- Supplier Icon -->
-                        <Image Source="supplier_icon.png" WidthRequest="50" HeightRequest="50" Grid.Column="0" VerticalOptions="Center"/>
-
-                        <!-- Supplier Name -->
-                        <Label Text="{Binding .}" VerticalOptions="Center" Grid.Column="1" />
-
-                        <!-- Action Buttons -->
-                        <Button Text="Entrar" BackgroundColor="#F8E6F1" TextColor="Black" WidthRequest="70" Grid.Column="2"/>
-                        <Button Text="Apagar?" BackgroundColor="#F8E6F1" TextColor="Black" WidthRequest="70" Grid.Column="3"/>
-                        <Button Text="Atualizar?" BackgroundColor="#F8E6F1" TextColor="Black" WidthRequest="70" Grid.Column="4"/>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
-    </StackLayout>
-</ContentPage>
+      

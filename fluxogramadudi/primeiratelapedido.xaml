@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.primeiratelapedido">
+    <StackLayout>
+        <!-- Cabeçalho -->
+        <Label Text="Cadastro do pedidos" FontSize="20" HorizontalOptions="CenterAndExpand" />
+
+        <!-- Subcabeçalho -->
+        <Label Text="Adicionar pedido:" FontSize="16" />
+
+        <!-- Campo de entrada de texto -->
+        <Entry Placeholder="Digite aqui..." />
+
+        <!-- Botões -->
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Adicionar" BackgroundColor="Green" />
+            <Button Text="Excluir" BackgroundColor="Pink" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

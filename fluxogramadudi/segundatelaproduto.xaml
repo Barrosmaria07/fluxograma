@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.segundatelaproduto"
+             BackgroundColor="White">
+
+    <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="20">
+        <Label Text="Lista de produtos"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               Margin="0, 0, 0, 20"/>
+
+        <!-- Entry fields for product list -->
+        <StackLayout Spacing="10">
+            <Entry Placeholder="Produto 1" BackgroundColor="White" />
+            <Entry Placeholder="Produto 2" BackgroundColor="White" />
+            <Entry Placeholder="Produto 3" BackgroundColor="White" />
+            <Entry Placeholder="Produto 4" BackgroundColor="White" />
+            <Entry Placeholder="Produto 5" BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Button for adding products -->
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Button Text="+" 
+                    BackgroundColor="#D3D3F3" 
+                    TextColor="Black"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"/>
+        </StackLayout>
+
+        <!-- Button for submitting the product list -->
+        <StackLayout HorizontalOptions="Center">
+            <Button Text="Adicionar produtos" 
+                    BackgroundColor="White" 
+                    TextColor="Black"
+                    BorderColor="Black"
+                    BorderWidth="1"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.quintatelafuncionario"
+             BackgroundColor="White">
+
+    <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Label Text="Dados do usuário"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               Margin="0, 0, 0, 20"/>
+
+        <Entry Placeholder="Nome do funcionário" BackgroundColor="Orange" TextColor="Black" />
+        <Entry Placeholder="E-mail" BackgroundColor="Orange" TextColor="Black" Margin="0, 10"/>
+        <Entry Placeholder="Telefone" BackgroundColor="Orange" TextColor="Black" Margin="0, 10"/>
+        <Entry Placeholder="Endereço" BackgroundColor="Orange" TextColor="Black" Margin="0, 10"/>
+        <Entry Placeholder="Cargo" BackgroundColor="Orange" TextColor="Black" Margin="0, 10"/>
+        <Entry Placeholder="Endereço" BackgroundColor="Orange" TextColor="Black" Margin="0, 10"/>
+    </StackLayout>
+</ContentPage>

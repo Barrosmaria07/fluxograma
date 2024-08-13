@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace fluxogramadudi
 {
-    public partial class terceiratelacliente : ContentPage
+    public partial class quintatelafuncionario : ContentPage
     {
-        public RegistrationPage()
+        public MainPage()
         {
             InitializeComponent();
         }

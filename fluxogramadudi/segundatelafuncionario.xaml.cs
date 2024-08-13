@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace fluxogramadudi // Replace 'SeuApp' with your project's namespace
 {
-    public partial class segundatelafuncionario : ContentPage
+    public partial class Segundatelafuncionario : ContentPage
     {
-        public MainPage()
+        public Segundatelafuncionario()
         {
             InitializeComponent();
         }
@@ -16,9 +16,9 @@ namespace fluxogramadudi // Replace 'SeuApp' with your project's namespace
         }
 
         // Add search logic here to show/hide NenhumEncontradoLabel based on search results
-        private void EmployeeSearch_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            NenhumEncontradoLabel.IsVisible = EmployeeSearch.Text != "" && /* no results found */;
-        }
+
+    internal class CadastroPage : Page
+    {
     }
+}
 }

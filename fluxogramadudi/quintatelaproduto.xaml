@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fluxogramadudi.quintatelaproduto"
+             Title="Cadastro de Compra">
+    <ContentPage.Content>
+        <VerticalStackLayout Spacing="20">
+            <Label Text="Item" FontSize="18" />
+            <Entry Placeholder="Digite o nome do item" />
+            <Label Text="Quantidade" FontSize="18" />
+            <Entry Keyboard="Numeric" Placeholder="Digite a quantidade" />
+            <Label Text="Fornecedor" FontSize="18" />
+            <Entry Placeholder="Digite o nome do fornecedor" />
+            <Button Text="Salvar" Clicked="Salvar_Clicked" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

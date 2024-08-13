@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fluxogramadudi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+72aed91692cc49b88f415346c4920b30b91f04af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ab1b79b009ca901c35f8235c5be386b7dea1c688")]
 [assembly: System.Reflection.AssemblyProductAttribute("fluxogramadudi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fluxogramadudi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

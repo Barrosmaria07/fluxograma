@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="24.7.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="XuAWWrtT51MjqdmUZVaE" name="Página-2">
-    <mxGraphModel dx="2868" dy="5051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="4794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1575,6 +1575,9 @@
         </mxCell>
         <mxCell id="PJoq0Ka2RV1c_-J8jCJi-27" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;Pedidos&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="PJoq0Ka2RV1c_-J8jCJi-24" vertex="1">
           <mxGeometry x="110.37999999999909" y="119.99999999999989" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0nYPef4DYpiYq1BFcq15-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Lista de pedidos:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PJoq0Ka2RV1c_-J8jCJi-24">
+          <mxGeometry x="181.38999999999942" y="200" width="208" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PJoq0Ka2RV1c_-J8jCJi-44" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="9822.61" y="80" width="589.3899999999994" height="1082.9999999999998" as="geometry" />
