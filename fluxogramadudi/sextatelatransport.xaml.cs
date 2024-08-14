@@ -5,7 +5,7 @@ namespace fluxogramadudi
 {
     public partial class sextatelatransport : ContentPage
     {
-        public CarrierDataPage()
+        public sextatelatransport()
         {
             InitializeComponent();
         }

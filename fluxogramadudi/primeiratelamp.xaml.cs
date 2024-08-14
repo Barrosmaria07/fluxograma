@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class primeiratelamp : ContentPage
     {
-        public RawMaterialRegistrationPage()
+        public primeiratelamp()
         {
             InitializeComponent();
         }

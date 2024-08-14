@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class terceiratelamp : ContentPage
     {
-        public AddStockPage()
+        public terceiratelamp()
         {
             InitializeComponent();
         }

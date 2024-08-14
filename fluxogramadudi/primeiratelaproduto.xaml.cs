@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class primeiratelaproduto : ContentPage
     {
-        public ShippingPage()
+        public primeiratelaproduto()
         {
             InitializeComponent();
         }

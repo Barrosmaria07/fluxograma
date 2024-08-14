@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class quintatelacliente : ContentPage
     {
-        public DeleteConfirmationPage()
+        public quintatelacliente()
         {
             InitializeComponent();
         }

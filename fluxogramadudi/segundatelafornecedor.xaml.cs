@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class segundatelafornecedor : ContentPage
     {
-        public SupplierNotFoundPage()
+        public segundatelafornecedor()
         {
             InitializeComponent();
         }

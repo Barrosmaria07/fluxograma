@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class quartatelafornecedor : ContentPage
     {
-        public CadastroRealizadoPage()
+        public quartatelafornecedor()
         {
             InitializeComponent();
         }

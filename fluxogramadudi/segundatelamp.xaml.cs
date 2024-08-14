@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class segundatelamp : ContentPage
     {
-        public OrderPage()
+        public segundatelamp()
         {
             InitializeComponent();
         }

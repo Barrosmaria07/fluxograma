@@ -4,7 +4,7 @@ namespace fluxogramadudi // Substitua 'SeuApp' pelo nome real do seu projeto
 {
     public partial class setimatelafornecedor : ContentPage
     {
-        public MainPage()
+        public setimatelafornecedor()
         {
             InitializeComponent();
         }

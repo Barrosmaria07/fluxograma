@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class quintatelafuncionario : ContentPage
     {
-        public MainPage()
+        public quintatelafuncionario()
         {
             InitializeComponent();
         }

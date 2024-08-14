@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class terceiratelafornecedor : ContentPage
     {
-        public MainPage()
+        public terceiratelafornecedor()
         {
             InitializeComponent();
 

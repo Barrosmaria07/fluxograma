@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class quintatelatransport : ContentPage
     {
-        public DeleteConfirmationPage()
+        public quintatelatransport()
         {
             InitializeComponent();
         }

@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class setimatelacliente : ContentPage
     {
-        public RegistrationPage()
+        public setimatelacliente()
         {
             InitializeComponent();
         }

@@ -4,17 +4,17 @@ namespace Modelos
 {
     public class Pedido : Registro
     {
-        public string produto {get; set;}
+        public string Produto {get; set;}
         
-       public string fornecedor {get; set;}
+       public string Fornecedor {get; set;}
         
-        public decimal valor {get; set;}
+        public decimal Valor {get; set;}
         
-        public string estoque {get; set;}
-        public int quantidade {get; set;}
+        public string Estoque {get; set;}
+        public int Quantidade {get; set;}
 
          [BsonId]
-        public int id {get; set;}
+        public int Id {get; set;}
 
 }
 }

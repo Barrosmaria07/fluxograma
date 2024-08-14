@@ -5,17 +5,17 @@ namespace Modelos
 public class Compras: Registro
 
 {
-    public string produtos {get; set;}
+    public string Produtos {get; set;}
     
-    public string fornecedor {get; set;}
+    public string Fornecedor {get; set;}
     
-    public decimal valor {get; set;}
+    public decimal Valor {get; set;}
     
-    public string estoque {get; set;}
-    public int quantidade {get; set;}
+    public string Estoque {get; set;}
+    public int Quantidade {get; set;}
 
     [BsonId]
-     public int id {get; set;}
+     public int Id {get; set;}
     
 }
 }

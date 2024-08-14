@@ -4,7 +4,7 @@ namespace fluxogramadudi // Substitua 'SeuApp' pelo nome real do seu projeto
 {
     public partial class quintatelafornecedor : ContentPage
     {
-        public MainPage()
+        public quintatelafornecedor()
         {
             InitializeComponent();
 

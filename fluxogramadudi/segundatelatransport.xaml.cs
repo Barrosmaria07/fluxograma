@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class segundatelatransport : ContentPage
     {
-        public CarrierSearchPage()
+        public segundatelatransport()
         {
             InitializeComponent();
         }

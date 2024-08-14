@@ -4,7 +4,7 @@ namespace fluxogramadudi // Substitua 'SeuApp' pelo nome real do seu projeto
 {
     public partial class sextatelaforncedor : ContentPage
     {
-        public MainPage()
+        public sextatelaforncedor()
         {
             InitializeComponent();
         }

@@ -4,7 +4,7 @@ namespace fluxogramadudi
 {
     public partial class terceiratelatransport : ContentPage
     {
-        public CarrierRegistrationPage()
+        public terceiratelatransport()
         {
             InitializeComponent();
         }

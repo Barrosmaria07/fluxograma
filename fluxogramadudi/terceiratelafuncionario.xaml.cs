@@ -4,7 +4,7 @@ namespace fluxogramadudi // Replace 'SeuApp' with your project's namespace
 {
     public partial class terceiratelafuncionario : ContentPage
     {
-        public MainPage()
+        public terceiratelafuncionario()
         {
             InitializeComponent();
         }

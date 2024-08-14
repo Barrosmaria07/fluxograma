@@ -5,13 +5,13 @@ namespace Modelos
 {
 public class MateriaPrima: Registro
 {
-    public string nome {get; set;}
+    public string Nome {get; set;}
 
-    public string transportadora {get; set;}
-    public string fornecedor {get; set;}
+    public string Transportadora {get; set;}
+    public string Fornecedor {get; set;}
 
      [BsonId]
-    public int id {get; set;}
+    public int Id {get; set;}
  
 }
 }

@@ -5,7 +5,7 @@ namespace fluxogramadudi
 {
     public partial class primeiratelafuncionario : ContentPage
     {
-        public ObservableCollection<Employee> Employees { get; } = new();
+        public primeiratelafuncionario Employees { get; } = new();
 
         public MainPage()
         {

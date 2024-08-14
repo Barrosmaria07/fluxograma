@@ -4,11 +4,11 @@ namespace Modelos
 {
 public class Fornecedores : Registro
 {
-    public string nome {get; set;}
-     public string telefone {get; set;}
+    public string Nome {get; set;}
+     public string Telefone {get; set;}
 
     [BsonId]
-    public int id {get; set;}
+    public int Id {get; set;}
    
 }
 }
