@@ -7,7 +7,7 @@ namespace fluxogramadudi
     {
         public primeiratelafuncionario Employees { get; } = new();
 
-        public MainPage()
+        public primeiratelafuncionario()
         {
             InitializeComponent();
             BindingContext = this; 
@@ -18,24 +18,21 @@ namespace fluxogramadudi
             // ... more employees
         }
 
-        private void OnEntrarClicked(object sender, EventArgs e)
+         void OnEntrarClicked(object sender, EventArgs e)
         {
             // Handle "Entrar" button click
         }
 
-        private void OnApagarClicked(object sender, EventArgs e)
+         void OnApagarClicked(object sender, EventArgs e)
         {
             // Handle "Apagar?" button click
         }
 
-        private void OnAtualizarClicked(object sender, EventArgs e)
+         void OnAtualizarClicked(object sender, EventArgs e)
         {
             // Handle "Atualizar?" button click
         }
     }
 
-    public class Employee
-    {
-        public string Name { get; set; }
-    }
+    
 }

@@ -8,7 +8,7 @@ using Microsoft.Maui.Controls;
 
 namespace fluxogramadudi
 {
-    public partial class MainPage : ContentPage
+    public partial class sextatelaproduto : ContentPage
     {
         // Exemplo de dados para a lista de itens
         public List<Item> Itens { get; set; } = new List<Item>
@@ -19,7 +19,7 @@ namespace fluxogramadudi
             // Adicione mais itens conforme necessário
         };
 
-        public MainPage()
+        public sextatelaproduto()
         {
             InitializeComponent();
             BindingContext = this;

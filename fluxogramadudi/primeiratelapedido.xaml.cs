@@ -7,9 +7,9 @@ using Microsoft.Maui.Controls;
 
 namespace fluxogramadudi
 {
-    public partial class MainPage : ContentPage
+    public partial class primeiratelapedido : ContentPage
     {
-        public MainPage()
+        public primeiratelapedido()
         {
             InitializeComponent();
         }

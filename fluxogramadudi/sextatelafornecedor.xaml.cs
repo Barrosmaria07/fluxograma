@@ -1,4 +1,5 @@
 using Microsoft.Maui.Controls;
+using Modelos;
 
 namespace fluxogramadudi // Substitua 'SeuApp' pelo nome real do seu projeto
 {
@@ -11,10 +12,10 @@ namespace fluxogramadudi // Substitua 'SeuApp' pelo nome real do seu projeto
 
         private void OnButtonClicked(object sender, EventArgs e)
         {
-            string nome = NomeEntry.Text;
-            string email = EmailEntry.Text;
-            string telefone = TelefoneEntry.Text;
-            string endereco = EnderecoEntry.Text;
+            string Nome = NomeEntry.Text;
+            string Email = EmailEntry.Text;
+            string Telefone = TelefoneEntry.Text;
+            string Endereco = EnderecoEntry.Text;
 
             // Lógica para processar os dados do cliente (salvar, enviar, etc.)
         }
