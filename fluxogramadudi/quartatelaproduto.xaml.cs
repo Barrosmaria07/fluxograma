@@ -1,7 +1,7 @@
 namespace fluxogramadudi;
-public partial class EstoquePage : ContentPage
+public partial class quartatelaproduto : ContentPage
 {
-    public EstoquePage()
+    public quartatelaproduto()
     {
         InitializeComponent();
     }
