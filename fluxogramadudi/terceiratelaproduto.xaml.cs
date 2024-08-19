@@ -1,7 +1,10 @@
+using Microsoft.Maui.Controls;
 
+namespace fluxogramadudi
+{
 public partial class terceiratelaproduto : ContentPage
 {
-    public EnvioPage()
+    public terceiratelaproduto()
     {
         InitializeComponent();
     }
@@ -14,4 +17,5 @@ public partial class terceiratelaproduto : ContentPage
         // Faça algo com os dados, como enviar para um servidor
         await DisplayAlert("Envio", "Dados enviados com sucesso!", "OK");
     }
+}
 }

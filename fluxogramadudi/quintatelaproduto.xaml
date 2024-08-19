@@ -4,13 +4,24 @@
              Title="Cadastro de Compra">
     <ContentPage.Content>
         <VerticalStackLayout Spacing="20">
-            <Label Text="Item" FontSize="18" />
+            <Label x:Name="itemEntry"
+            Text="Item"
+             FontSize="18" />
+
             <Entry Placeholder="Digite o nome do item" />
-            <Label Text="Quantidade" FontSize="18" />
-            <Entry Keyboard="Numeric" Placeholder="Digite a quantidade" />
-            <Label Text="Fornecedor" FontSize="18" />
+            <Label x:Name="quantidadeEntry"
+             Text="Quantidade"
+             FontSize="18" />
+            
+            
+            <Entry  Keyboard="Numeric" Placeholder="Digite a quantidade" />
+            <Label x:Name="fornecedorLabel"
+            Text="Fornecedor"
+            FontSize="18" />
+
             <Entry Placeholder="Digite o nome do fornecedor" />
             <Button Text="Salvar" Clicked="Salvar_Clicked" />
+            
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

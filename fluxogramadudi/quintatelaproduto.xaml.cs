@@ -1,9 +1,11 @@
 using System.Reflection.Metadata;
+using Modelos;
 
-namespace fluxogramadudi;
-public partial class CadastroCompraPage : ContentPage
+namespace fluxogramadudi
 {
-    public CadastroCompraPage()
+public partial class quintatelaproduto: ContentPage
+{
+    public quintatelaproduto()
     {
         InitializeComponent();
     }
@@ -16,10 +18,11 @@ public partial class CadastroCompraPage : ContentPage
         string fornecedor = fornecedorEntry.Text;
 
         // Crie um objeto para representar a compra (opcional)
-        var compra = new Compra { Item = item, Quantidade = quantidade, Fornecedor = fornecedor };
+        var compra = new Compras { Item = item, Quantidade = quantidade, Fornecedor = fornecedor };
 
         // Salve os dados (implemente a lógica de salvar aqui)
         // Exemplo: salvando em um banco de dados local ou enviando para uma API
         await DisplayAlert("Sucesso", "Compra cadastrada com sucesso!", "OK");
     }
+}
 }

@@ -12,10 +12,6 @@ namespace fluxogramadudi
             InitializeComponent();
             BindingContext = this; 
 
-            // Sample employee data (replace with your actual data source)
-            Employees.Add(new Employee { Name = "Nome do funcionário" });
-            Employees.Add(new Employee { Name = "Nome do funcionário" });
-            // ... more employees
         }
 
          void OnEntrarClicked(object sender, EventArgs e)

@@ -1,4 +1,7 @@
-namespace fluxogramadudi;
+using Microsoft.Maui.Controls;
+
+namespace fluxogramadudi
+{
 public partial class quartatelaproduto : ContentPage
 {
     public quartatelaproduto()
@@ -8,7 +11,7 @@ public partial class quartatelaproduto : ContentPage
 
     private async void Itens_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new ItensPage()); // Substitua ItensPage pela sua página de itens
+        await Navigation.PushAsync(new quartatelaproduto()); // Substitua ItensPage pela sua página de itens
     }
 
     private async void Compra_Clicked(object sender, EventArgs e)
@@ -20,4 +23,5 @@ public partial class quartatelaproduto : ContentPage
     {
         await Navigation.PushAsync(new BaixaPage()); // Substitua BaixaPage pela sua página de baixas
     }
+}
 }

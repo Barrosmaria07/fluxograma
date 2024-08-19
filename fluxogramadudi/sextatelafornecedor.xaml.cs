@@ -3,9 +3,9 @@ using Modelos;
 
 namespace fluxogramadudi // Substitua 'SeuApp' pelo nome real do seu projeto
 {
-    public partial class sextatelaforncedor : ContentPage
+    public partial class sextatelafornecedor : ContentPage
     {
-        public sextatelaforncedor()
+        public sextatelafornecedor()
         {
             InitializeComponent();
         }
