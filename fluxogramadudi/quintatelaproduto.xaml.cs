@@ -15,7 +15,7 @@ public partial class quintatelaproduto: ContentPage
         // Obtenha os valores dos campos
         string item = itemEntry.Text;
         int quantidade = int.Parse(quantidadeEntry.Text);
-        string fornecedor = fornecedorEntry.Text;
+        string fornecedor = fornecedorLabel.Text;
 
         // Crie um objeto para representar a compra (opcional)
         var compra = new Compras { Item = item, Quantidade = quantidade, Fornecedor = fornecedor };

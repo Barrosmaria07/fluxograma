@@ -10,20 +10,22 @@
             <Label Text="Página de cadastro" FontSize="24" HorizontalOptions="Center" />
 
             <!-- User Name -->
+ <Label x:Name="IdLabel" />
+
             <Label Text="Nome de usuário:" />
-            <Entry Placeholder="Nome de usuário" BackgroundColor="#E0E8E0" />
+            <Entry x:Name="NomedeusuarioEntry" Placeholder="Nome de usuário" BackgroundColor="#E0E8E0" />
 
             <!-- Email -->
             <Label Text="E-mail" />
-            <Entry Placeholder="E-mail" BackgroundColor="#E0E8E0" Keyboard="Email" />
+            <Entry x:Name="EmailEntry" Placeholder="E-mail" BackgroundColor="#E0E8E0" Keyboard="Email" />
 
             <!-- Phone -->
             <Label Text="Telefone" />
-            <Entry Placeholder="Telefone" BackgroundColor="#E0E8E0" Keyboard="Telephone" />
+            <Entry x:Name="TelefoneEntry" Placeholder="Telefone" BackgroundColor="#E0E8E0" Keyboard="Telephone" />
 
             <!-- Address -->
             <Label Text="Endereço" />
-            <Entry Placeholder="Endereço" BackgroundColor="#E0E8E0" />
+            <Entry x:Name="EnderecoEntry" Placeholder="Endereço" BackgroundColor="#E0E8E0" />
 
             <!-- Submit Button -->
             <Button Text="Ir" BackgroundColor="#E0E8E0" HorizontalOptions="End" VerticalOptions="End" />

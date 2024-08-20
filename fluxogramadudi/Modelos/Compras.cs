@@ -6,6 +6,8 @@ public class Compras: Registro
 
 {
     public string Produtos {get; set;}
+
+    public string Item {get; set;}
     
     public string Fornecedor {get; set;}
     

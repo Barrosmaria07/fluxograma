@@ -16,7 +16,6 @@
                    TextColor="Green" />
             <Entry Placeholder="Digite seu nome de usuário"
                    BackgroundColor="LightGreen"
-                   CornerRadius="10"
                    Margin="0,0,0,20" />
 
             <Label Text="E-mail:"
@@ -24,7 +23,6 @@
                    TextColor="Green" />
             <Entry Placeholder="Digite seu e-mail"
                    BackgroundColor="LightGreen"
-                   CornerRadius="10"
                    Margin="0,0,0,20" />
 
             <Label Text="Telefone:"
@@ -32,7 +30,6 @@
                    TextColor="Green" />
             <Entry Placeholder="Digite seu telefone"
                    BackgroundColor="LightGreen"
-                   CornerRadius="10"
                    Margin="0,0,0,20" />
 
             <Label Text="Endereço:"
@@ -40,7 +37,6 @@
                    TextColor="Green" />
             <Entry Placeholder="Digite seu endereço"
                    BackgroundColor="LightGreen"
-                   CornerRadius="10"
                    Margin="0,0,0,20" />
 
             <Button Text="Ir"

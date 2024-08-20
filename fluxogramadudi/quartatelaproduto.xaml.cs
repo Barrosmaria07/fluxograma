@@ -16,12 +16,12 @@ public partial class quartatelaproduto : ContentPage
 
     private async void Compra_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new CompraPage()); // Substitua CompraPage pela sua página de compras
+        await Navigation.PushAsync(new quartatelaproduto()); // Substitua CompraPage pela sua página de compras
     }
 
     private async void Baixa_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new BaixaPage()); // Substitua BaixaPage pela sua página de baixas
+        await Navigation.PushAsync(new quartatelaproduto()); // Substitua BaixaPage pela sua página de baixas
     }
 }
 }

@@ -33777,11 +33777,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\fluxograma\\fluxogramadudi\\fluxograma\\fluxogramadudi\\fluxogramadudi.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\fluxograma\\fluxogramadudi\\fluxogramadudi.csproj",
       "projectName": "fluxogramadudi",
-      "projectPath": "C:\\fluxograma\\fluxogramadudi\\fluxograma\\fluxogramadudi\\fluxogramadudi.csproj",
+      "projectPath": "C:\\Users\\Aluno\\fluxograma\\fluxogramadudi\\fluxogramadudi.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\fluxograma\\fluxogramadudi\\fluxograma\\fluxogramadudi\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\fluxograma\\fluxogramadudi\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
