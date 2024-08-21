@@ -13,7 +13,7 @@ public partial class quintatelaproduto: ContentPage
     private async void Salvar_Clicked(object sender, EventArgs e)
     {
         // Obtenha os valores dos campos
-        string item = itemEntry.Text;
+        string item = ItemEntry.Text;
         int quantidade = int.Parse(quantidadeEntry.Text);
         string fornecedor = fornecedorLabel.Text;
 
