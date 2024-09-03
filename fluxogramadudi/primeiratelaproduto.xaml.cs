@@ -9,4 +9,10 @@ namespace fluxogramadudi
             InitializeComponent();
         }
     }
+    void NovoProdutoClicked(object sender, EventArgs e)
+  {
+    // Quando a idéia é CRIAR um novo cliente, não é necessário setar o atributo "cliente" no CadastroClientePage,
+    // sendo assim, apenas criamos a nova página
+    Application.Current.MainPage = new segundatelaproduto();
+  }
 }

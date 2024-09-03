@@ -4,7 +4,7 @@
              x:Class="fluxogramadudi.primeiratelaproduto"
              BackgroundColor="White">
 
-    <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+    <StackLayout Padding="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
         <Label Text="Envio"
                FontSize="Large"
                HorizontalOptions="Center"
@@ -12,13 +12,13 @@
 
         <Grid RowSpacing="20" ColumnSpacing="20">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -27,7 +27,8 @@
             <Button Text="Produtos" 
                     BackgroundColor="#D3D3F3" 
                     TextColor="Black"
-                    Grid.Row="0" Grid.Column="0"/>
+                    Grid.Row="0" Grid.Column="0"
+                    Clicked="NovoProdutoClicked"/>
                     
             <Button Text="Envio" 
                     BackgroundColor="#D3D3F3" 
